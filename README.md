@@ -66,17 +66,8 @@ python -m http.server 8000
 - Use `console.log` para inspecionar valores antes do ponto de falha.
 - Verifique a ordem de carregamento dos scripts: bibliotecas (Leaflet) primeiro; scripts que dependem delas depois.
 
-## Boas práticas e próximos passos
-- Incluir um `README.md` (este arquivo) com instruções — já feito.
-- Adicionar `package.json` se for usar ferramentas Node/Build.
-- Para produção, não usar o endpoint público do Nominatim sem obedecer a política de uso; use proxy ou serviço com quota.
-- Adicionar testes simples e um script `start` para facilitar o fluxo de desenvolvimento.
-
 ## Referências úteis
 - Leaflet: https://leafletjs.com/
 - Nominatim usage policy: https://operations.osmfoundation.org/policies/nominatim/
 - MDN fetch/Promise: https://developer.mozilla.org/
 
-
----
-Se quiser, eu posso também: gerar `LICENSE`, criar um `package.json` básico ou adicionar um pequeno script `start` para facilitar iniciar o servidor local. Deseja que eu adicione algum desses?
