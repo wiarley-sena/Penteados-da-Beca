@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   background:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
-    url("../images/IMG_20241115_135240.jpg") center/cover no-repeat;
+    url("../css/images/IMG_20241115_135240.jpg") center/cover no-repeat;
   color: #fff;
   font-family: 'Poppins', sans-serif;
 }
