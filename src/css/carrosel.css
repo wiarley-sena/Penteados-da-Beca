@@ -1,0 +1,33 @@
+.servicos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.englobar{
+    display: flex;
+    height: 70vh;
+    width: 70vw;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+.individual{
+    height: 100%;
+    flex: 1;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.individual img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    filter: grayscale(1);
+}
+.individual:hover{
+    flex: 4;
+}
+.individual:hover img{
+    filter: grayscale(0);
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penteados Beca</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/responsivo.css">
+    <link rel="stylesheet" href="./css/carrosel.css">
+    <link rel="stylesheet" href="./css/leaflet.css">
+</head>
+
+<body>
+    <nav class="navegacao">
+        <ul class="menu">   
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Penteados</a></li>
+            <li><a href="#localizacao">Localização</a></li>
+        </ul>
+    </nav>
+    <main class="conteudo">
+        <section class="inicio" id="inicio">
+            <header class="cabecalho">
+                <h1 class="titulo">
+                    Penteados Da Beca
+                </h1>
+                <div class="slogan">
+                    <img src="./images/IMG_20241115_135240.jpg" alt="slogan penteados da beca" class="imagem-slogan">
+                    <p class="texto-chamativo">transformando fios em arte 💫</p>
+                </div>
+            </header>
+        </section>
+
+        <section class="sobre" id="sobre">
+            <div class="container">
+                <img src="./images/IMG-20251105-WA0028.jpg" alt="imagem sobre mim" class="imagem-sobre">
+                <div class="texto">
+                    <h2>Um pouco sobre mim</h2>
+                    <p>Oi! Eu sou Rebeca Kauany, tenho 13 anos e amo transformar cabelos com criatividade e carinho 💕
+                        Desde pequena sempre gostei de mexer com penteados e tranças — e hoje realizo esse sonho em cada
+                        pessoa que confia em mim.
+                        Aqui, cada trança é feita com atenção, paciência e amor, porque acredito que o cabelo é uma
+                        forma linda de expressar quem somos ✨</p>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="servicos" id="servicos">
+            <a href="#" id="btn-voltar" class="seta-voltar opacidade"> <img src="./images/seta esquerda.png" alt="seta para voltar">
+            </a>
+
+            <h2 class="titulo-servicos">Penteados</h2>
+            <p class="descricao-servicos">Aqui vou deixar algumas imagens de penteados que eu fiz:</p>
+            <div class="englobar">
+                <div class="individual mostrar">
+                    <img src="./images/tranca-masculina-4.jpg" alt="trança masculina dividida em 4 partes" >
+                </div>
+
+                <div class="individual">
+                    <img src="./images/tranca-masculina.jpg" alt="trança masculina">
+                </div>
+
+                <div class="individual">
+                    <img src="./images/tranca-roxa.jpg" alt="trança feminina">
+                </div>
+
+                <div class="individual">
+                    <img src="./images/tranca-vermelha.jpg" alt="trança feminina ">
+                </div>
+
+                <div class="individual">
+                    <img src="./images/mae.jpg" alt="trança feminina">
+                </div>
+
+                <div class="individual">
+                    <img src="./images/IMG_20241115_135240.jpg" alt="">
+                </div>
+
+            </div>
+            <a href="#" id="btn-avancar" class="seta-avancar opacidade"> <img src="./images/seta direita.png" alt="seta para avançar">
+            </a>
+        </section>
+
+        <section class="localizacao" id="localizacao">
+            <h2 class="titulo-localizacao">Localização</h2>
+            <p class="descricao-atendimento">No momento, realizo atendimentos apenas na minha casa, vou deixar a localização aqui:</p>
+            <div id="map"></div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="redes-trancista">
+            <h2>Redes Trancista</h2>
+            <ul class="redes-sociais">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="https://www.instagram.com/penteados_dabeca/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href=" #">WhatsApp</a></li>
+            </ul>
+        </div>
+
+
+        <div class="redes-autor">
+            <h2> Criador da Página</h2>
+            <ul class="redes-sociais-autor">
+                <li><a href="https://github.com/wiarley-sena" target="_blank" rel="noopener noreferrer"">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/wiarley-sena-528762357/" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
+                <li><a href="https://www.instagram.com/wiarley.08/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- CSS do Leaflet -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+<!-- JS do Leaflet -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+
+    <script src="./js/carrosel.js"></script>
+    <script src="./js/apis.js"></script>
+
+
+</body>
+
+</html>
