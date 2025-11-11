@@ -184,7 +184,7 @@ section {
 }
 
 #map {
-  height: auto;
+  height: 600px;
   width: 70%;
   margin-top: 20px;
 }
