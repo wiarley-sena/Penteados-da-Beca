@@ -91,7 +91,7 @@ section {
 .inicio .slogan {
   position: absolute;
   top: 50%;
-  left: 55%;
+  left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -184,7 +184,7 @@ section {
 }
 
 #map {
-  height: 600px;
+  height: auto;
   width: 70%;
   margin-top: 20px;
 }
